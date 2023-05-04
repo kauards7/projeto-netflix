@@ -1,0 +1,147 @@
+#banner-casa{
+    background-image: url('https://occ-0-3457-185.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSFgofDhsfR7hpxcO-Plrb7eI44Vuw3IQ38D-Olo-cM3DY3f6IV7Bn42c0NoxfIrZLwO3-C0IlA6H6t462TnMw_2iCkVcZtJ3WgC.jpg?r=a59');
+    background-position: 50% 0%;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+}
+
+
+.descricao {
+    background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(18, 18, 18), rgb(22, 22, 22));
+    height: 500px;
+    color: aliceblue;
+}
+
+.container-descricao{
+    margin-left: 15px;
+}
+
+h1{
+    margin:0;
+}
+
+.classificacao{
+    color: gray;
+}
+
+
+h3 {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+
+.assista{
+    background-color: red;
+    width: 150px;
+    height: 60px;
+    border: solid 1px aliceblue;
+    border-radius: 3px;
+    font-size: 20px;
+    color: aliceblue;
+    position: relative;
+    bottom: 25px;
+    left: 30px;
+    cursor: pointer;
+}
+
+
+.trailer{
+    height: 300px;
+    width: 500px;
+    margin-left: 15px;
+}
+
+.footer-badboys{
+        background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(18, 18, 18), rgb(22, 22, 22));
+        color: aliceblue;
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+}
+
+@media(max-width:1270px) {
+    #banner-casa{
+        height: 600px;
+    }
+}
+
+@media(max-width:948px) {
+    #banner-casa{
+        height: 500px;
+    }
+}
+
+@media(max-width:798px) {
+    #banner-casa{
+        height: 400px;
+    }
+
+    .assista{
+        left: 15px;
+        width: 100px;
+        height: 50px;
+        display: block;
+        bottom: 0;
+    }
+}
+
+@media(max-width:640px) {
+    #banner-casa{
+        height: 300px;
+    }
+
+    .trailer{
+        height: 200px;
+        width: 300px;
+    }
+}
+
+@media(max-width:485px) {
+    #banner-casa{
+        height: 200px;
+    }
+}
+
+@media(max-width:335px) {
+    #banner-casa{
+        height: 150px;
+    }
+
+    .trailer{
+        height: 200px;
+        width: 200px;
+    }
+
+    .footer-badboys{
+        height: 600px;
+    }
+
+    #logo2{
+        margin-top: 400px;
+    }
+}
+
+@media(max-width:255px){
+    #banner-casa{
+        height: 100px;
+    }
+
+    .descricao{
+        height: 400px;
+    }
+
+    .trailer{
+        height: 130px;
+        width: 150px;
+    }
+
+    .junior2{
+        margin-top: 500px;
+    }
+    #logo2{
+        display:none;
+    }
+}

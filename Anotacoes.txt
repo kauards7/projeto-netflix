@@ -1,0 +1,59 @@
+package-lock.json -->relatar a versão de cada pacote instalado no projeto
+package.json --> diversas funcionalidades porem a principal é relatar tambem os pacotes instalados na aplicação e tambem responsavel pelo armazenamento do react-scripts
+
+start --> rodar a aplicação em react
+build --> construir uma versão otimizada para subir em produção a aplicação
+test --> mais pra frente
+eject --> mais pra frente
+
+para chamar um script --> npm e o nome do script no caso do star,nos outros NPM run e o nome do script
+
+
+Hot reload --> carrega de forma rapida a pagina
+
+react e todo baseado em componentização
+
+
+webpack --> agrupa o codigo,isso é chamado de bundle
+auxilia na separação do nosso codigo em diversos arquivos
+trabalha em conjunto com o npm na importação de codigos dos nossos pacotes externos
+
+
+
+Babel --> transforma o codigo js novo em codigo antigo,serve para browser que ainda nao tem interpretação para codigo js novo
+
+
+funçoes react --> metodo importado diretamente da biblioteca react
+
+-React.createElement :
+
+jsx -->sempre escrito dentro do return
+
+-React.Fragment --> para usar mais de um elemento no jsx
+
+para escrever js dentro do jsx se escreve dentro de chaves {} 
+
+componente --> maneira de dividir o codigo em diversos pedaços,separando responsabilidades de cada trecho de codigo
+
+-componente funcional : componente criado com uma função
+-componente criado com classe : sao componentes mais antigos e menos utilizados hoje em dia,mais pra frente
+
+
+ciclo dos componentes :
+1-quando é construido em tela
+2-quando o componente e atualizado
+3-quando o componente é removido da tela
+
+site com a documentação do react-router-dom:
+==> https://v5.reactrouter.com/web/guides/quick-start
+
+
+contexto/estado global : serve para centralizar valores e estados e compartilhar entre componentes que nao interagem diretamente
+
+pasta stores serve para armazenar valores,pode ser utilizado tambem pasta com nome contexts
+
+Browser- envolve todas as partes da aplicação que fica na raiz
+router - envolve todas as rotas
+route - 
+
+pasta assets --> usada para guardar imagens e videos

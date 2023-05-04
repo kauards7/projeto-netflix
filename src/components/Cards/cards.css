@@ -1,0 +1,171 @@
+.actor-cards-container {
+    background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(18, 18, 18), rgb(22, 22, 22));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: aliceblue;
+}
+
+
+.cards-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.cards {
+    width: 400px;
+    height: 211px;
+    background-size: cover;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    color:aliceblue;
+    font-size: 17px;
+    font-family:'Kdam Thmor pro', sans-serif;
+}
+
+.link-junior{
+    cursor: default;
+}
+
+.catalogo{
+    margin-left: 85px;
+    position: relative;
+    top: 85px;
+}
+
+.descricao {
+    color: rgb(163, 161, 161);
+}
+
+.container-catalogo{
+    color: aliceblue;
+    font-size: 20px;
+    background-image: linear-gradient(to right, rgb(10, 10, 10), rgb(18, 18, 18), rgb(22, 22, 22));
+}
+
+.banner1 {
+    background-image: url('https://teamcomics.com.br/wp-content/uploads/2023/02/bad-boys-br.jpg');
+}
+
+.banner2 {
+    background-image: url('https://occ-0-3457-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTofxSGQs1gk_kPpX00ayQ_sUE69WKsFVPeiygGmedfKS0Z41tJ9RiekA5Fl76NFFGtxb02m9NnA34E48WXRHl1_k6-7HG31OVyz.jpg?r=b2f');
+}
+
+.banner3 {
+    background-image: url('https://occ-0-3774-420.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABd8n6M5dptox9exZ_r83LhdaEWXtFBsFg4qVfS3CdLnXTJARuzF0Vt2_SiiTvy_kVTTM51nmn0ppyqWOp-Ws3lx0U3EGdJKcdwbu.jpg?r=a66');
+}
+
+.banner4{
+    background-image:  url('https://occ-0-3457-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABS95CCLTFxvCLfIebCUxK8Uq3mrwXj5b7AWy5fa5hgrHbIs1nXzDyOneev5auOajmbQJFxVonE898MGqlZH5IsCpjfnFDJ7w_wK7.jpg?r=9e1');
+}
+
+.banner5 {
+    background-image: url('https://occ-0-3457-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ1dLIWQNsp8zivxfyT-_EmhJhgnAH46OYma0CTRT1I38EgG8ua2ee0n9gs4JSnt-5QnM_Pdi5qkFup0LuHgEHgWNwI9mxhSv7tSuZoVg1EAkHXzfAyPRo3uDV9ifhTNflE_8g.jpg?r=937');
+}
+
+.banner6 {
+    background-image: url('https://occ-0-4356-1380.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfZSQpVKkw7pQTMnbfNExjg4JbLqdxI7eLHIkOhcDw7uy5E5FmChPth6hQGNQwXMhmwiAno4TQ5gPnSb2OHTsopQ6vaFvF3jw6eO.jpg?r=749');
+}
+
+.banner7{
+    background-image: url('https://occ-0-3457-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABS6mq-jpqdj-gxb4HzA-obTRP3pJfxHbVL_AC3aLrpBgADZV5z2v8KH72UraVPMSd5MBuj0DOBvom6MfigTYLe1XB6r_o3ucvUIB.jpg?r=267');
+}
+
+.banner8 {
+    background-image: url('https://occ-0-3457-185.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdL_LcxqQDI2hsTbF6qMgpSgyRKmjAdtk6KDPzKNydoe7aAz_bntyR2zsfu2sFDmdw_v05qOsge9dOuOPqlG-NDQd-MWZZo07Cnf.jpg?r=e0e');
+}
+
+
+@media(max-width:1680px) {
+    .cards-content{
+        width: 100%;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .cards{
+        width: 320px;
+        height: 160px;
+    }
+}
+
+@media(max-width:1415px) {
+    .cards-content{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:1100px) {
+    .cards-content{
+        width: 100%;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    
+    .cards{
+        width: 250px;
+        height: 120px;
+    }
+}
+
+@media(max-width:885px) {
+    .cards-content{
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:597px) {
+    .cards-content {
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .cards {
+        width: 210px;
+        height: 100px;
+    }
+}
+
+@media(max-width:523px) {
+    .cards-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .cards{
+        width: 290px;
+        height: 130px;
+    }
+}
+
+@media(max-width:345px) {
+    .cards{
+        width: 210px;
+        height: 80px;
+    }
+    .cards-content{
+        margin-left: 5px;
+    }
+    .catalogo{
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:265px){
+    .cards{
+        width: 140px;
+        height: 40px;
+    }
+}
+
+
+

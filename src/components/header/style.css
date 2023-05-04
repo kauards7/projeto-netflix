@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&amp;display=swap');
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(14,14,14), rgb(20, 20, 20));
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+.registro {
+    background-color: red;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 16px;
+    width: 140px;
+    height: 30px;
+    border: 1px solid aliceblue;
+    border-radius: 3px;
+}
+
+
+.entrar {
+    background-color: black;
+    color: aliceblue;
+    font-size: 14px;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+    border: solid .2px aliceblue;
+}
+
+.entrar:hover {
+    background-color: rgb(92, 91, 91);
+    cursor: pointer;
+}
+
+
+.container-login {
+    position: relative;
+    right: 30px;
+}
+
+.link-registro{
+    position: relative;
+    right: 10px;
+}
+
+@media(max-width:368px) {
+    .entrar{
+        width: 45px;
+        font-size: 12px;
+    }
+
+    .registro{
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .container-login{
+        right: 10px;
+    }
+
+    #logo{
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media(max-width:230px){
+   .link-registro{
+        right: 1px;
+    }
+    .container-login{
+        right: 0px;
+    }
+
+ 
+}
+
